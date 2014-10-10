@@ -81,8 +81,13 @@ GC_18 = Coupling(name = 'GC_18',
                  value = 'gD10/Mstar**2',
                  order = {'D10':1,'QXT':2})
 
-GC_19 = Coupling(name = 'GC_19',
+# up type and down type interactions 
+GC_19_u = Coupling(name = 'GC_19_u',
                  value = '(complex(0,1)*gD5)/Mstar**2',
+                 order = {'D5':1,'QXT':2})
+
+GC_19_d = Coupling(name = 'GC_19_d',
+                 value = 'xi*(complex(0,1)*gD5)/Mstar**2',
                  order = {'D5':1,'QXT':2})
 
 GC_20 = Coupling(name = 'GC_20',
@@ -93,8 +98,13 @@ GC_21 = Coupling(name = 'GC_21',
                  value = '-((complex(0,1)*gD7)/Mstar**2)',
                  order = {'D7':1,'QXT':2})
 
-GC_22 = Coupling(name = 'GC_22',
+# up type and down type interactions 
+GC_22_u = Coupling(name = 'GC_22_u',
                  value = '(complex(0,1)*gD8)/Mstar**2',
+                 order = {'D8':1,'QXT':2})
+
+GC_22_d = Coupling(name = 'GC_22_d',
+                 value = '(xi*complex(0,1)*gD8)/Mstar**2',
                  order = {'D8':1,'QXT':2})
 
 GC_23 = Coupling(name = 'GC_23',
@@ -434,7 +444,7 @@ GC_106 = Coupling(name = 'GC_106',
                   order = {'QED':1})
 
 GC_107 = Coupling(name = 'GC_107',
-                  value = '(complex(0,1)*gD1*ymb)/Mstar**3',
+                  value = '(xi*complex(0,1)*gD1*ymb)/Mstar**3',
                   order = {'D1':1,'QXT':3})
 
 GC_108 = Coupling(name = 'GC_108',
@@ -466,7 +476,7 @@ GC_114 = Coupling(name = 'GC_114',
                   order = {'D4':1,'QXT':3})
 
 GC_115 = Coupling(name = 'GC_115',
-                  value = '(complex(0,1)*gD1*ymdo)/Mstar**3',
+                  value = '(xi*complex(0,1)*gD1*ymdo)/Mstar**3',
                   order = {'D1':1,'QXT':3})
 
 GC_116 = Coupling(name = 'GC_116',
@@ -482,7 +492,7 @@ GC_118 = Coupling(name = 'GC_118',
                   order = {'D4':1,'QXT':3})
 
 GC_119 = Coupling(name = 'GC_119',
-                  value = '(complex(0,1)*gD1*yms)/Mstar**3',
+                  value = '(xi*complex(0,1)*gD1*yms)/Mstar**3',
                   order = {'D1':1,'QXT':3})
 
 GC_120 = Coupling(name = 'GC_120',

@@ -145,13 +145,21 @@ gD14 = Parameter(name = 'gD14',
                  lhablock = 'DMBLOCK',
                  lhacode = [ 15 ])
 
-mDM = Parameter(name = 'mDM',
-                nature = 'external',
-                type = 'real',
-                value = 10,
-                texname = '\\text{mDM}',
-                lhablock = 'DMBLOCK',
-                lhacode = [ 16 ])
+xi = Parameter(name = 'xi',
+                 nature = 'external',
+                 type = 'real',
+                 value = 1.,
+                 texname = '\\xi',
+                 lhablock = 'DMBLOCK',
+                 lhacode = [ 16 ])
+
+#mDM = Parameter(name = 'mDM',
+#                nature = 'external',
+#                type = 'real',
+#                value = 10,
+#                texname = '\\text{mDM}',
+#                lhablock = 'DMBLOCK',
+#                lhacode = [ 16 ])
 
 aEWM1 = Parameter(name = 'aEWM1',
                   nature = 'external',
